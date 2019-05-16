@@ -1,8 +1,7 @@
-const { src, dest, parallel } = require('gulp'),
+const { src, dest, parallel, watch, series } = require('gulp'),
 prettyHtml = require('gulp-pretty-html'),
 cssbeautify = require('gulp-cssbeautify'),
-purge = require('gulp-css-purge'),
-  csslint = require('gulp-csslint'),
+csslint = require('gulp-csslint'),
 concatCss = require('gulp-concat-css');
 
 function html() {
@@ -33,8 +32,10 @@ function csslinter() {
     .pipe(csslint.formatter());
 }
 
+watch('src/css', series(cssfeio));
+
 exports.csslinter = csslinter;
 exports.csslindo = csslindo;
 exports.cssfeio = cssfeio;
 exports.html = html;
-exports.default = parallel(html);
+exports.default = html
