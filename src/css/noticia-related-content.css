@@ -1,0 +1,1335 @@
+/* !color-cp:chartbeat-related-content */.chartbeat-related-content {
+  overflow: hidden
+}
+
+.chartbeat-related-content[data-request] {
+  display: none
+}/* !end-color-cp:chartbeat-related-content *//* !color-cp:news-errata-view */.news-errata-view {
+  position: relative;
+  display: block;
+  font-style: italic;
+  clear: both
+}
+
+.news-errata-view a.info {
+  cursor: pointer
+}
+
+.news-errata-view .info svg {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+  margin-right: 4px;
+  vertical-align: middle;
+  display: inline-block
+}
+
+.news-errata-view .info span.errata-title {
+  vertical-align: middle;
+  font-size: 14px;
+  display: inline-block;
+  margin-left: -5px
+}
+
+.news-errata-view.text .info {
+  margin-bottom: 16px
+}
+
+.news-errata-view.text .info span.errata-title {
+  font-size: 22px;
+  display: inline
+}
+
+.news-errata-view.text .info svg {
+  width: 22px;
+  height: 22px;
+  background-size: 20px
+}
+
+.news-errata-view.text .description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-bottom: 16px
+}
+
+.news-errata-view.text .description:last-child {
+  margin-bottom: 40px
+}
+
+.news-errata-view.text .date {
+  font-size: 12px;
+  color: #999
+}
+
+@media (max-width:767px) {
+  .news-errata-view.text .info span.errata-title {
+    font-size: 20px
+  }
+}/* !end-color-cp:news-errata-view *//* !color-cp:news-notice */.news-notice {
+  border: 4px solid #e6e6e6;
+  overflow: hidden;
+  padding: 17px 0 11px 0;
+  margin-bottom: 40px
+}
+
+.news-notice .chatbot,.news-notice .girouol {
+  text-align: center
+}
+
+.news-notice .chatbot.full p.partner,.news-notice .girouol.full p.partner {
+  color: #4d4d4d;
+  font-weight: 400;
+  margin: 20px 0 25px 0;
+  padding: 0
+}
+
+.news-notice .chatbot.full img.partner,.news-notice .girouol.full img.partner {
+  display: block;
+  margin: 0 auto
+}
+
+.news-notice h3 {
+  margin-bottom: 17px;
+  line-height: 20px;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 21px;
+  height: 30px
+}
+
+.news-notice h3 .newsletter-name {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300
+}
+
+.news-notice h3 .newsletter-name::before {
+  content: "|";
+  color: #ccc;
+  font-weight: 400;
+  font-size: 24px;
+  margin-right: 8px
+}
+
+.news-notice p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 16px;
+  padding: 0;
+  text-align: center
+}
+
+.news-notice p.msg-success {
+  color: #0e6962;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400
+}
+
+.news-notice p.msg-success .svg-checked {
+  width: 25px;
+  height: 25px;
+  fill: #0e6962;
+  margin-bottom: -7px
+}
+
+.news-notice input.field {
+  margin-bottom: 8px
+}
+
+.news-notice input.error {
+  margin-bottom: 26px
+}
+
+.news-notice label.error {
+  display: none;
+  font-size: 12px;
+  text-align: left;
+  color: #860808;
+  position: absolute;
+  left: 15px;
+  top: 40px
+}
+
+.news-notice .chatbot .svg-social-messenger {
+  width: 32px;
+  height: 32px;
+  margin-bottom: -10px;
+  fill: #0084ff
+}
+
+.news-notice .chatbot .btn-medium {
+  padding: 14px 20px
+}
+
+.news-notice.subscribe p {
+  line-height: normal
+}
+
+.news-notice.subscribe .girouol>.row:last-child {
+  margin: 20px 0 10px
+}
+
+.news-notice .girouol h3 {
+  height: 30px;
+  font-weight: 400
+}
+
+.news-notice .girouol h3 .icon-uol {
+  max-width: 297px;
+  margin: -5px auto;
+  display: block;
+  height: 40px;
+  width: 100%
+}
+
+.news-notice .girouol h3 .icon-uol::before {
+  content: ''
+}
+
+.news-notice .girouol h3 .ve-tv,.news-notice .girouol h3 .viva-bem {
+  max-width: 272px
+}
+
+.news-notice .girouol h3 .resumo-do-dia {
+  max-width: 252px;
+  margin-top: 0
+}
+
+.news-notice .girouol h3 .tab {
+  max-width: 212px
+}
+
+.news-notice .girouol h3 .investimentos {
+  max-width: 334px
+}
+
+.news-notice .girouol .subscriber-email {
+  width: 108%;
+  height: 40px;
+  padding-left: 20px;
+  margin-left: -20px;
+  font-size: 14px;
+  letter-spacing: .6px;
+  color: #000;
+  border-radius: 4px;
+  border: 1px solid #ccc
+}
+
+.news-notice .girouol .subscriber-email::-ms-clear {
+  display: none
+}
+
+.news-notice .girouol .subscriber-email:active,.news-notice .girouol .subscriber-email:focus {
+  outline: 0
+}
+
+.news-notice .girouol .subscriber-email::-webkit-input-placeholder {
+  color: #999;
+  text-transform: none;
+  font-size: 14px
+}
+
+.news-notice .girouol .subscriber-email::-moz-placeholder {
+  color: #999;
+  text-transform: none;
+  font-size: 14px
+}
+
+.news-notice .girouol .subscriber-email:-ms-input-placeholder {
+  color: #999;
+  text-transform: none;
+  font-size: 14px
+}
+
+.news-notice .girouol .subscriber-email:-moz-placeholder {
+  color: #999;
+  text-transform: none;
+  font-size: 14px
+}
+
+.news-notice .girouol .subscriber-email:disabled {
+  background-color: #f2f2f2
+}
+
+.news-notice .girouol .btn-email-input {
+  position: absolute;
+  width: 100%
+}
+
+.news-notice .girouol .btn-email-input.subscribe-disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: #fff
+}
+
+.news-notice .girouol .subscribe-input .error-email {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: left;
+  color: #cf240c;
+  cursor: none
+}
+
+.news-notice .girouol .subscribe-input .subscriber-icon-close {
+  display: none;
+  position: absolute;
+  color: #cf240c;
+  right: 26px;
+  top: 17px;
+  font-weight: 600;
+  font-size: 10px;
+  cursor: pointer
+}
+
+.news-notice .girouol .subscribe-input .subscriber-email.error-input {
+  border-color: #cf240c
+}
+
+@media (max-width:767px) {
+  .news-notice {
+    padding: 21px 0
+  }
+
+  .news-notice .chatbot:not(.full) {
+    border-bottom: 2px solid #f2f2f2;
+    padding-top: 20px
+  }
+
+  .news-notice .chatbot,.news-notice .girouol {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto
+  }
+
+  .news-notice .chatbot:not(.full),.news-notice .girouol:not(.full) {
+    padding-bottom: 40px
+  }
+
+  .news-notice .chatbot.full,.news-notice .girouol.full {
+    padding: 0
+  }
+
+  .news-notice .chatbot h3,.news-notice .girouol h3 {
+    margin-bottom: 16px;
+    font-size: 20px
+  }
+
+  .news-notice .chatbot h3 .newsletter-name,.news-notice .girouol h3 .newsletter-name {
+    display: block;
+    font-size: 16px;
+    margin-top: 3px
+  }
+
+  .news-notice .chatbot h3 .newsletter-name::before,.news-notice .girouol h3 .newsletter-name::before {
+    display: none
+  }
+
+  .news-notice .chatbot h3 .icon-uol,.news-notice .girouol h3 .icon-uol {
+    margin-top: -7px;
+    max-width: 235px
+  }
+
+  .news-notice .chatbot h3 .tab,.news-notice .girouol h3 .tab {
+    max-width: 161px
+  }
+
+  .news-notice .chatbot h3 .resumo-do-dia,.news-notice .girouol h3 .resumo-do-dia {
+    max-width: 181px
+  }
+
+  .news-notice .chatbot h3 .viva-bem,.news-notice .girouol h3 .viva-bem {
+    max-width: 212px
+  }
+
+  .news-notice .chatbot h3 .investimentos,.news-notice .girouol h3 .investimentos {
+    max-width: 267px
+  }
+
+  .news-notice .chatbot p,.news-notice .girouol p {
+    width: 78%;
+    margin: 0 auto
+  }
+
+  .news-notice .chatbot p:not(.msg-success),.news-notice .girouol p:not(.msg-success) {
+    display: inline-block;
+    color: #000;
+    margin-top: 19px;
+    padding: 0
+  }
+
+  .news-notice .girouol {
+    padding: 9px 0
+  }
+
+  .news-notice .girouol h3 {
+    margin-bottom: 0
+  }
+
+  .news-notice .girouol p {
+    color: #000
+  }
+
+  .news-notice .girouol:not(.full) {
+    padding-bottom: 20px;
+    padding-top: 36px
+  }
+
+  .news-notice .girouol .subscriber-email {
+    margin-left: 0;
+    width: 100%
+  }
+
+  .news-notice .girouol .subscribe-input {
+    padding: 0
+  }
+
+  .news-notice .girouol .btn-email-input {
+    position: relative;
+    width: auto;
+    margin: 20px 0 -10px 0
+  }
+
+  .news-notice .girouol>.row:last-child {
+    margin: 0
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .news-notice>.row {
+    display: flex
+  }
+
+  .news-notice .news-border-left {
+    border-left: solid 2px #f2f2f2
+  }
+
+  .news-notice .chatbot,.news-notice .girouol {
+    padding: 22px 30px 25px
+  }
+
+  .news-notice .chatbot.full,.news-notice .girouol.full {
+    text-align: left;
+    padding: 0 12px
+  }
+
+  .news-notice .chatbot.full .row,.news-notice .girouol.full .row {
+    display: flex;
+    align-items: center
+  }
+
+  .news-notice .chatbot.full h3,.news-notice .girouol.full h3 {
+    margin-bottom: 0;
+    background-position: left
+  }
+
+  .news-notice .chatbot.full p,.news-notice .girouol.full p {
+    margin: 0;
+    padding-left: 38px
+  }
+
+  .news-notice .chatbot.full .btn,.news-notice .girouol.full .btn {
+    float: right
+  }
+
+  .news-notice .chatbot:not(.full) p,.news-notice .girouol:not(.full) p {
+    padding: 0
+  }
+
+  .news-notice.subscribe .girouol.full h3 {
+    margin-bottom: 18px
+  }
+
+  .news-notice.subscribe .girouol .subscriber-email {
+    width: 100%;
+    margin-left: -2px
+  }
+
+  .news-notice .chatbot.full {
+    padding-left: 8px
+  }
+
+  .news-notice .girouol.full .btn-email-input {
+    position: absolute;
+    width: 106%;
+    margin-left: -2px
+  }
+
+  .news-notice .girouol.full p {
+    padding-left: 18px;
+    margin-top: 25px
+  }
+
+  .news-notice .girouol.full h3 {
+    margin-bottom: 5px
+  }
+}
+
+@media (min-width:992px) and (max-width:1229px) {
+  .news-notice .chatbot,.news-notice .girouol {
+    padding: 18px 3px 25px
+  }
+
+  .news-notice .chatbot.full,.news-notice .girouol.full {
+    text-align: left;
+    padding: 0 20px
+  }
+
+  .news-notice .chatbot.full p,.news-notice .girouol.full p {
+    padding-left: 38px
+  }
+
+  .news-notice .chatbot.full p.partner,.news-notice .girouol.full p.partner {
+    margin: 0
+  }
+
+  .news-notice .chatbot:not(.full) p,.news-notice .girouol:not(.full) p {
+    padding: 0
+  }
+
+  .news-notice .chatbot.full {
+    padding-left: 14px
+  }
+
+  .news-notice .girouol.full p {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 25px
+  }
+
+  .news-notice .girouol.full h3 {
+    margin-bottom: 16px
+  }
+}
+
+@media (min-width:1230px) {
+  .news-notice .girouol .btn {
+    float: right
+  }
+
+  .news-notice .girouol .btn-quero-receber {
+    float: none
+  }
+
+  .news-notice .chatbot.full,.news-notice .girouol.full {
+    text-align: left;
+    padding: 0 30px
+  }
+
+  .news-notice .chatbot.full .row,.news-notice .girouol.full .row {
+    display: flex;
+    align-items: center
+  }
+
+  .news-notice .chatbot.full h3,.news-notice .girouol.full h3 {
+    margin-bottom: 6px;
+    background-position: left
+  }
+
+  .news-notice .chatbot.full p,.news-notice .girouol.full p {
+    margin: 0;
+    padding-left: 38px
+  }
+
+  .news-notice .chatbot.full .btn,.news-notice .girouol.full .btn {
+    float: right
+  }
+
+  .news-notice .chatbot:not(.full) p,.news-notice .girouol:not(.full) p {
+    padding: 0
+  }
+
+  .news-notice .chatbot.full {
+    padding-left: 26px
+  }
+
+  .news-notice .girouol.full p {
+    padding-left: 0;
+    margin-top: 3px
+  }
+
+  .news-notice .girouol.full h3 {
+    margin-bottom: 22px
+  }
+
+  .news-notice .girouol .subscribe-input {
+    margin-bottom: -2px
+  }
+
+  .news-notice .girouol .subscriber-email {
+    margin-left: -30px;
+    width: 108%
+  }
+
+  .news-notice .girouol .btn-email-input {
+    position: absolute;
+    width: 104%;
+    margin-left: -5px
+  }
+}/* !end-color-cp:news-notice *//* !color-cp:related-collection */.related-collection {
+  margin-bottom: 35px
+}
+
+.related-collection li {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  background-size: 100% 2px;
+  background-position: bottom;
+  background-repeat: no-repeat
+}
+
+.related-collection li:hover {
+  background: 0 0
+}
+
+.related-collection li a {
+  border-radius: 26px;
+  font-size: 20px;
+  font-weight: 400
+}
+
+.related-collection .btn-medium {
+  padding: 14px 20px
+}
+
+.related-collection h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  float: left;
+  margin-right: 20px
+}
+
+.related-collection ul {
+  display: inline-block
+}
+
+@media (max-width:767px) {
+  .related-collection h4 {
+    margin-bottom: 15px;
+    margin-top: 5px
+  }
+
+  .related-collection li {
+    margin-bottom: 9px
+  }
+}
+
+@media (min-width:992px) and (max-width:1229px) {
+  .related-collection h4 {
+    margin-bottom: 15px
+  }
+}
+
+@media (min-width:768px) {
+  .related-collection {
+    margin-bottom: 60px
+  }
+
+  .related-collection h4 {
+    font-size: 26px;
+    line-height: 32px;
+    margin-top: 3px
+  }
+}/* !end-color-cp:related-collection *//* !color-cp:related-content */.related-content {
+  margin-bottom: 40px
+}
+
+.related-content .h-components {
+  font-size: 24px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 25px;
+  letter-spacing: 4px;
+  text-transform: uppercase
+}
+
+.related-content .h-components:first-letter {
+  text-transform: capitalize
+}
+
+.modal.modal-mode-related .related-content .thumb-title,.modal.modal-mode-related .related-content .thumbnail-standard .h-components {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 100
+}
+
+@media (max-width:767px) {
+  .related-content>.row {
+    margin-left: 0;
+    margin-right: 0
+  }
+
+  .related-content .thumbnail-standard {
+    padding: 0 0 15px
+  }
+
+  .related-content .thumbnail-standard:not(.item-no-image):not(:last-child) {
+    border-bottom: 1px solid #e6e6e6
+  }
+
+  .related-content .thumbnail-standard:not(.item-no-image):not(:first-child) {
+    margin-top: 15px
+  }
+
+  .related-content .thumbnail-standard:not(.item-no-image):last-child {
+    margin-bottom: 0
+  }
+
+  .related-content .thumbnail-standard .thumb-caption .thumb-title {
+    font-size: 16px;
+    line-height: 22px
+  }
+
+  .related-content .h-components {
+    font-size: 20px
+  }
+
+  .related-content.no-image .thumbnail-standard {
+    border-bottom: 1px solid #e6e6e6
+  }
+
+  .related-content.no-image .thumbnail-standard:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0
+  }
+
+  .related-content.no-image .thumbnail-standard a {
+    padding: 0
+  }
+}
+
+@media (min-width:768px) {
+  .related-content .row {
+    display: flex
+  }
+
+  .related-content .thumbnail-standard .thumb-caption .thumb-title {
+    font-size: 18px;
+    line-height: 26px
+  }
+
+  .related-content .item-no-image a {
+    padding: 30px 20px
+  }
+
+  .related-content .thumb-image {
+    margin-bottom: 12px
+  }
+}/* !end-color-cp:related-content *//* !color-cp:related-content-hyperlink */.related-content-hyperlink ol {
+  list-style: decimal;
+  margin-bottom: 30px
+}
+
+.related-content-hyperlink h3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  text-transform: uppercase
+}
+
+.related-content-hyperlink ul {
+  margin-bottom: 30px
+}
+
+.related-content-hyperlink li {
+  position: relative;
+  margin-bottom: 20px;
+  list-style-position: inside
+}
+
+.related-content-hyperlink li a {
+  font-weight: 400;
+  background-size: 100% 2px;
+  background-position: bottom;
+  background-repeat: no-repeat
+}
+
+@media (min-width:992px) {
+  .related-content-hyperlink li a:hover {
+    background: 0 0
+  }
+}
+
+@media (max-width:767px) {
+  .related-content-hyperlink h3 {
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 3px
+  }
+
+  .related-content-hyperlink ul li {
+    margin-bottom: 24px
+  }
+}/* !end-color-cp:related-content-hyperlink *//* !color-cp:summary-news */.summary-news {
+  clear: both
+}
+
+.summary-news .summary-content {
+  background-color: rgba(242,242,242,.65);
+  padding: 26px;
+  margin-bottom: 40px
+}
+
+.summary-news .summary-content h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 19px;
+  letter-spacing: 3.3px;
+  text-transform: uppercase
+}
+
+.summary-news .summary-content li {
+  font-size: 16px;
+  line-height: 25px;
+  color: #1a1a1a;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 22px;
+  list-style-position: inside
+}
+
+.summary-news .summary-content li:last-child {
+  margin-bottom: 0
+}
+
+.summary-news .summary-content li:before {
+  content: "";
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  top: 8px;
+  left: 0;
+  position: absolute
+}
+
+@media (max-width:767px) {
+  .summary-news .summary-content {
+    padding: 21px;
+    margin-bottom: 35px
+  }
+
+  .summary-news .summary-content h3 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    letter-spacing: 2.7px
+  }
+
+  .summary-news .summary-content li {
+    font-size: 18px;
+    line-height: 27px
+  }
+}/* !end-color-cp:summary-news *//* !color-cp:whatsapp-news */.whatsapp-news {
+  border: 1px solid #e6e6e6;
+  margin-top: 20px
+}
+
+.whatsapp-news.simple .whatsapp-area {
+  float: left;
+  text-align: center
+}
+
+.whatsapp-news.simple .whatsapp-area {
+  text-align: center
+}
+
+.whatsapp-news .whatsapp-area .whatsapp-text {
+  padding: 10px 15px 0 15px;
+  position: relative;
+  top: -16px
+}
+
+.whatsapp-news.simple .whatsapp-area .whatsapp-text.last {
+  border-left: 1px solid #e6e6e6
+}
+
+.whatsapp-news.simple .whatsapp-area.whatsapp-title {
+  background-color: #e6e6e6
+}
+
+.whatsapp-news.multiple .whatsapp-title {
+  background-color: #e6e6e6
+}
+
+.whatsapp-news .whatsapp-area .whatsapp-text .highlight {
+  font-weight: 700
+}
+
+.whatsapp-news .whatsapp-step.icon-whatsapp {
+  color: #1a1a1a;
+  border: none;
+  text-shadow: 2px 0 0 #fff,-2px 0 0 #fff,0 2px 0 #fff,0 -2px 0 #fff,1px 1px #fff,-1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff
+}
+
+.whatsapp-news .whatsapp-step {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  display: inline-block;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+  top: -14px
+}
+
+.whatsapp-news.multiple .whatsapp-theme {
+  float: left;
+  margin: 10px 0;
+  padding: 10px 20px 0 20px
+}
+
+.whatsapp-news.multiple .whatsapp-theme:last-child {
+  border-left: 1px solid #e6e6e6
+}
+
+.whatsapp-news.multiple .whatsapp-area {
+  float: left;
+  height: auto
+}
+
+.whatsapp-news.multiple .whatsapp-area:last-child {
+  margin-top: 19px
+}
+
+.whatsapp-news.multiple .whatsapp-subject .whatsapp-text {
+  font-weight: 700
+}
+
+.whatsapp-news.multiple .whatsapp-subject {
+  margin-bottom: 7px
+}
+
+@media (max-width:767px) {
+  .whatsapp-news .whatsapp-step {
+    height: 28px;
+    line-height: 26px;
+    width: 28px
+  }
+
+  .whatsapp-news .whatsapp-title .whatsapp-step.icon-whatsapp {
+    float: left;
+    margin: 16px 10px 0 10px;
+    position: relative
+  }
+
+  .whatsapp-news .whatsapp-title .whatsapp-text {
+    float: left;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 10px;
+    padding-left: 6px;
+    top: 0
+  }
+
+  .whatsapp-news .whatsapp-area .whatsapp-text .highlight {
+    font-size: 14px
+  }
+
+  .whatsapp-news .whatsapp-area .whatsapp-text {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 7px 5px 0 5px
+  }
+
+  .whatsapp-news .whatsapp-step.icon-whatsapp {
+    font-size: 34px;
+    top: 0
+  }
+
+  .whatsapp-news.simple .whatsapp-area.whatsapp-title {
+    height: 73px;
+    text-align: left
+  }
+
+  .whatsapp-news.simple .whatsapp-area.whatsapp-title .whatsapp-text {
+    font-size: 16px;
+    padding: 10px 5px 0 5px
+  }
+
+  .whatsapp-news.multiple .whatsapp-step {
+    top: 0
+  }
+
+  .whatsapp-news.multiple .whatsapp-title {
+    height: 66px;
+    line-height: 60px;
+    padding-left: 10px
+  }
+
+  .whatsapp-news.multiple .whatsapp-title .whatsapp-step.icon-whatsapp {
+    margin-right: 18px
+  }
+
+  .whatsapp-news.multiple .whatsapp-area .whatsapp-text {
+    top: 0
+  }
+
+  .whatsapp-news.multiple .whatsapp-title .whatsapp-text {
+    margin: 8px 10px 8px 0;
+    padding: 0
+  }
+
+  .whatsapp-news.multiple .whatsapp-area .whatsapp-text {
+    padding: 0;
+    margin-top: 8px
+  }
+
+  .whatsapp-news.multiple .whatsapp-theme,.whatsapp-news.multiple .whatsapp-theme:last-child {
+    padding: 6px 5px 0 5px;
+    text-align: center
+  }
+
+  .whatsapp-news.multiple .whatsapp-subject {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0
+  }
+}
+
+@media (min-width:768px) {
+  .whatsapp-news .whatsapp-step {
+    font-size: 14px;
+    height: 24px;
+    line-height: 22px;
+    width: 24px
+  }
+
+  .whatsapp-news .whatsapp-step.icon-whatsapp {
+    font-size: 30px
+  }
+
+  .whatsapp-news .whatsapp-area .whatsapp-text {
+    float: none;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 18px 20px 0 20px
+  }
+
+  .whatsapp-news.simple .whatsapp-area.whatsapp-title {
+    height: 101px
+  }
+
+  .whatsapp-news.simple .whatsapp-area.whatsapp-title .whatsapp-text {
+    font-size: 15px
+  }
+
+  .whatsapp-news.simple .whatsapp-step {
+    top: -12px
+  }
+
+  .whatsapp-news.multiple .whatsapp-title {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+    padding-left: 24px
+  }
+
+  .whatsapp-news.multiple .whatsapp-title .whatsapp-step.icon-whatsapp {
+    float: left;
+    top: 8px
+  }
+
+  .whatsapp-news.multiple .whatsapp-title .whatsapp-text {
+    font-size: 15px;
+    margin-left: 13px
+  }
+
+  .whatsapp-news.multiple .whatsapp-theme,.whatsapp-news.multiple .whatsapp-theme:last-child {
+    padding: 0 20px
+  }
+
+  .whatsapp-news.multiple .whatsapp-subject {
+    font-weight: 700
+  }
+
+  .whatsapp-news.multiple .whatsapp-step {
+    top: 0;
+    float: left
+  }
+
+  .whatsapp-news.multiple .whatsapp-area .whatsapp-text {
+    float: left;
+    padding: 13px 0 0 11px;
+    width: 250px
+  }
+
+  .whatsapp-news .whatsapp-area .whatsapp-text .highlight {
+    font-size: 15px
+  }
+
+  .whatsapp-news.multiple .whatsapp-area:last-child {
+    margin-top: -4px
+  }
+}
+
+@media (min-width:992px) {
+  .whatsapp-news.multiple .whatsapp-area .whatsapp-text {
+    width: 205px
+  }
+}
+
+@media (min-width:1230px) {
+  .whatsapp-news .whatsapp-area .whatsapp-text {
+    font-size: 15px;
+    line-height: 21px
+  }
+
+  .whatsapp-news .whatsapp-step {
+    font-size: 18px;
+    height: 32px;
+    line-height: 30px;
+    width: 32px;
+    top: -16px
+  }
+
+  .whatsapp-news .whatsapp-step.icon-whatsapp {
+    font-size: 36px
+  }
+
+  .whatsapp-news .whatsapp-area .whatsapp-text .highlight {
+    font-size: 18px
+  }
+
+  .whatsapp-news.simple .whatsapp-step {
+    top: -16px
+  }
+
+  .whatsapp-news.simple .whatsapp-area.whatsapp-title {
+    height: 109px
+  }
+
+  .whatsapp-news.simple .whatsapp-area .whatsapp-text {
+    line-height: 22px;
+    padding: 10px 10px 0 10px
+  }
+
+  .whatsapp-news.simple .whatsapp-area .whatsapp-text {
+    font-size: 16px
+  }
+
+  .whatsapp-news.simple .whatsapp-area.whatsapp-title .whatsapp-text {
+    font-size: 18px
+  }
+
+  .whatsapp-news.multiple .whatsapp-title .whatsapp-step.icon-whatsapp {
+    top: 13px
+  }
+
+  .whatsapp-news.multiple .whatsapp-title {
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px
+  }
+
+  .whatsapp-news.multiple .whatsapp-theme {
+    margin-top: 14px
+  }
+
+  .whatsapp-news.multiple .whatsapp-step {
+    top: 4px
+  }
+
+  .whatsapp-news.multiple .whatsapp-area .whatsapp-text {
+    padding: 0 15px;
+    top: 0;
+    width: 280px
+  }
+
+  .whatsapp-news.multiple .whatsapp-area:last-child {
+    margin-top: 15px
+  }
+
+  .whatsapp-news .whatsapp-area.whatsapp-title .whatsapp-text,.whatsapp-news.multiple .whatsapp-title .whatsapp-text {
+    font-size: 18px
+  }
+
+  .whatsapp-news.multiple .whatsapp-title .whatsapp-text {
+    margin-left: 9px
+  }
+
+  .whatsapp-news.multiple .whatsapp-subject .whatsapp-text {
+    font-size: 18px
+  }
+}/* !end-color-cp:whatsapp-news */
+
+/* !color-cp:news-notice.vertical */.news-notice .subscriber-email::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 14px;
+  letter-spacing: .6px;
+  text-transform: none
+}
+
+.news-notice .subscriber-email::-moz-placeholder {
+  color: #ccc;
+  font-size: 14px;
+  letter-spacing: .6px;
+  text-transform: none
+}
+
+.news-notice .subscriber-email:-ms-input-placeholder {
+  color: #ccc;
+  font-size: 14px;
+  letter-spacing: .6px;
+  text-transform: none
+}
+
+.news-notice .subscriber-email:-moz-placeholder {
+  color: #ccc;
+  font-size: 14px;
+  letter-spacing: .6px;
+  text-transform: none
+}
+
+@media (min-width:1230px) {
+  .news-notice .subscriber-email {
+    line-height: 10
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+  .news-notice .subscriber-email {
+    line-height: 0
+  }
+}/* !end-color-cp:news-notice.vertical *//* !color-cp:related-collection.vertical */.related-collection li a {
+  font-size: 19px;
+  letter-spacing: .6px;
+  font-weight: 400
+}
+
+@media (min-width:1230px) {
+  .related-collection li a {
+    font-size: 21px
+  }
+}
+
+@media (max-width:767px) {
+  .related-collection li a {
+    font-size: 18px
+  }
+}/* !end-color-cp:related-collection.vertical *//* !color-cp:related-content.vertical */.related-content {
+  font-family: Dosis,sans-serif
+}
+
+.related-content .h-components {
+  margin: 0 10px 30px 0;
+  text-align: left;
+  display: inline-block;
+  font-size: 36px;
+  letter-spacing: -.5px;
+  border-radius: 4px;
+  padding: 0 7px;
+  line-height: 48px;
+  font-weight: 300;
+  text-transform: none
+}
+
+.related-content .thumbnail-standard .thumbnail-standard-wrapper a .thumb-caption .thumb-title {
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -.5px;
+  font-weight: 500
+}
+
+.related-content .thumbnail-standard .thumbnail-standard-wrapper a .thumb-caption::after {
+  display: none
+}
+
+@media (max-width:767px) {
+  .related-content .thumbnail-standard .thumbnail-standard-wrapper a figure.thumb-image {
+    width: 120px;
+    float: left;
+    margin: 0
+  }
+
+  .related-content .thumbnail-standard .thumbnail-standard-wrapper a figure.thumb-image img {
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto
+  }
+}
+
+.related-content .thumbnail-standard.item-no-image {
+  border: none
+}
+
+.related-content .thumbnail-standard.item-no-image .thumbnail-standard-wrapper a {
+  padding: 13px 18px;
+  background-color: #fff
+}
+
+@media (max-width:767px) {
+  .related-content .thumbnail-standard:not(.item-no-image):not(:last-child) {
+    border: none
+  }
+
+  .related-content .h-components {
+    font-size: 30px
+  }
+}/* !end-color-cp:related-content.vertical *//* !color-cp:related-content-hyperlink.vertical */.related-content-hyperlink h3 {
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.16;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  text-transform: initial
+}
+
+.related-content-hyperlink ul li {
+  margin-bottom: 15px
+}
+
+@media (max-width:767px) {
+  .related-content-hyperlink h3 {
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: normal
+  }
+
+  .related-content-hyperlink ul li {
+    margin-bottom: 18px
+  }
+}/* !end-color-cp:related-content-hyperlink.vertical *//* !color-cp:summary-news.vertical */.summary-news .summary-content h3 {
+  font-size: 30px;
+  font-family: Dosis;
+  line-height: 40px;
+  font-weight: 500;
+  margin-bottom: 19px;
+  letter-spacing: normal;
+  text-transform: none
+}
+
+.summary-news .summary-content ul li {
+  line-height: 25px
+}
+
+.summary-news .summary-content ul li:before {
+  background: #000;
+  height: 7px;
+  width: 7px
+}
+
+@media (max-width:767px) {
+  .summary-news .summary-content h3 {
+    font-size: 28px;
+    margin-bottom: 18px;
+    letter-spacing: normal
+  }
+}/* !end-color-cp:summary-news.vertical */
