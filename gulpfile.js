@@ -7,7 +7,7 @@ function html() {
     .pipe(prettyHtml({
       indent_size: 2,
       indent_char: ' ',
-      unformatted: ['code', 'pre', 'em', 'strong', 'span', 'i', 'b', 'br']
+      unformatted: ['code', 'pre', 'em', 'strong', 'i', 'b', 'br']
     }))
     .pipe(dest('src/'));
 }
