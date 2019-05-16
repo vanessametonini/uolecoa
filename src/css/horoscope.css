@@ -1,0 +1,737 @@
+.horoscope {
+  position: relative;
+  margin-bottom: 50px
+}
+
+.horoscope a {
+  cursor: pointer
+}
+
+.horoscope .forecast {
+  background: #fff
+}
+
+.horoscope .forecast a {
+  color: #dd1d50
+}
+
+.horoscope .forecast .day p {
+  line-height: 54px;
+  text-align: right
+}
+
+.horoscope .forecast .resume p {
+  color: #1a1a1a;
+  font-weight: 400
+}
+
+.horoscope .forecast .sign a {
+  font-weight: 700;
+  font-size: 16px
+}
+
+.horoscope .forecast .sign p {
+  font-size: 21px;
+  font-weight: 400
+}
+
+.horoscope .forecast .sign span>a {
+  color: #1a1a1a;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: inherit
+}
+
+.horoscope .h-components {
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center
+}
+
+.horoscope-menu {
+  height: 110px;
+  position: relative;
+  margin-bottom: 39px
+}
+
+.horoscope-menu .container {
+  overflow-x: auto;
+  overflow-y: hidden
+}
+
+.horoscope-menu .container::-webkit-scrollbar {
+  height: 0
+}
+
+.horoscope-menu.on-left .scroll-left,.horoscope-menu.on-right .scroll-right {
+  display: block
+}
+
+.horoscope-menu .scroll-left,.horoscope-menu .scroll-right {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 96px;
+  height: 103px;
+  display: none;
+  z-index: 1
+}
+
+.horoscope-menu .scroll-left svg,.horoscope-menu .scroll-right svg {
+  cursor: pointer;
+  display: inline;
+  width: 36px;
+  height: 71px
+}
+
+.horoscope-menu .scroll-left {
+  left: 0;
+  background: -webkit-linear-gradient(0deg,#fff 20%,rgba(255,255,255,0) 100%);
+  background: -moz-linear-gradient(0deg,#fff 20%,rgba(255,255,255,0) 100%);
+  background: -o-linear-gradient(0deg,#fff 20%,rgba(255,255,255,0) 100%);
+  background: -ms-linear-gradient(0deg,#fff 20%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(90deg,#fff 20%,rgba(255,255,255,0) 100%)
+}
+
+.horoscope-menu .scroll-right {
+  right: 0;
+  background: -webkit-linear-gradient(180deg,#fff 20%,rgba(255,255,255,0) 100%);
+  background: -moz-linear-gradient(180deg,#fff 20%,rgba(255,255,255,0) 100%);
+  background: -o-linear-gradient(180deg,#fff 20%,rgba(255,255,255,0) 100%);
+  background: -ms-linear-gradient(180deg,#fff 20%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(-90deg,#fff 20%,rgba(255,255,255,0) 100%);
+  text-align: right
+}
+
+.horoscope-menu .signs {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 77px;
+  border-bottom: 1px solid #e6e6e6
+}
+
+.horoscope-menu .signs .items {
+  height: 100%
+}
+
+.horoscope-menu .signs li {
+  height: 100%
+}
+
+.horoscope-menu .signs li.active,.horoscope-menu .signs li:hover {
+  height: calc(100% + 2px);
+  margin: 0
+}
+
+.horoscope-menu .signs .col-mobile {
+  width: 8.333333334%;
+  float: left
+}
+
+.horoscope-menu.is-scrollable {
+  margin-bottom: 27px
+}
+
+.horoscope-menu.is-scrollable.touch-enabled .container {
+  overflow-x: auto
+}
+
+.horoscope-menu.is-scrollable .container {
+  padding: 0;
+  width: auto
+}
+
+@media (max-width:767px) {
+  .horoscope {
+    margin-bottom: 40px
+  }
+
+  .horoscope .forecast {
+    margin: 0 auto;
+    padding: 11px 10px 0
+  }
+
+  .horoscope .forecast .day {
+    padding-right: 8px
+  }
+
+  .horoscope .forecast p {
+    color: #666;
+    line-height: 51px
+  }
+
+  .horoscope .forecast .sign {
+    padding-left: 11px
+  }
+
+  .horoscope .forecast .sign a {
+    display: block;
+    font-weight: 400;
+    margin-top: -3px
+  }
+
+  .horoscope-menu {
+    height: 71px;
+    margin-bottom: 36px
+  }
+
+  .horoscope-menu .scroll-left,.horoscope-menu .scroll-right {
+    height: initial;
+    bottom: 0
+  }
+
+  .horoscope-menu .signs {
+    width: 1000px;
+    margin: 0
+  }
+}
+
+@media (min-width:768px) {
+  .horoscope {
+    margin-bottom: 50px
+  }
+
+  .horoscope .forecast {
+    top: 0
+  }
+
+  .horoscope .forecast .sign p {
+    color: #1a1a1a;
+    font-size: 27px
+  }
+
+  .horoscope .forecast .sign p a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 65px
+  }
+
+  .horoscope .forecast .sign a .svg-icon {
+    fill: #333;
+    float: left;
+    width: 42px;
+    height: 42px;
+    margin: 15px 15px 0 0
+  }
+
+  .horoscope .signs {
+    border: 1px solid #e6e6e6;
+    height: 195px
+  }
+
+  .horoscope li .btn {
+    font-size: 14px
+  }
+
+  .horoscope li .svg-icon {
+    height: 38px
+  }
+
+  .horoscope .signs .title {
+    padding-right: 20px
+  }
+
+  .horoscope .signs .title p {
+    font-size: 27px;
+    line-height: 30px;
+    margin: -1px -10px 0 0
+  }
+
+  .horoscope .signs .title p strong {
+    font-weight: 400
+  }
+
+  .horoscope .forecast .sign p,.horoscope .signs .title p {
+    background: #f2f2f2;
+    height: 194px;
+    padding: 20px 0 0 20px;
+    margin-top: -1px
+  }
+
+  .horoscope-menu .signs {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 102px
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .horoscope {
+    margin-bottom: 50px
+  }
+
+  .horoscope-menu .signs {
+    width: 1000px
+  }
+
+  .horoscope-menu .signs .title {
+    margin-right: -12px
+  }
+
+  .horoscope-menu .signs .title p {
+    padding-top: 22px
+  }
+}
+
+@media (min-width:992px) and (max-width:1229px) {
+  .horoscope .signs .title {
+    margin-right: 7px
+  }
+
+  .horoscope-menu.is-scrollable {
+    height: 83px
+  }
+
+  .horoscope-menu.is-scrollable li i[class*=icon-]:before {
+    font-size: 30px;
+    height: 34px
+  }
+
+  .horoscope-menu.is-scrollable a {
+    font-size: 12px
+  }
+}
+
+@media (min-width:992px) {
+  .horoscope .forecast .resume p:hover {
+    opacity: .7
+  }
+
+  .horoscope-menu .signs {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 102px
+  }
+
+  .horoscope-menu.is-scrollable .container {
+    overflow-x: hidden
+  }
+
+  .horoscope-menu.is-scrollable .signs {
+    width: 945px
+  }
+
+  .horoscope-menu.is-scrollable .scroll-left svg {
+    margin-left: -10px
+  }
+
+  .horoscope-menu.is-scrollable .scroll-right svg {
+    margin-right: -10px
+  }
+}
+
+@media (min-width:1230px) {
+  .horoscope li {
+    padding-left: 0;
+    padding-right: 0
+  }
+
+  .horoscope .forecast,.horoscope .signs,.horoscope .signs .title p {
+    height: 123px
+  }
+
+  .horoscope .forecast .day {
+    margin-right: 23px;
+    padding-left: 43px
+  }
+
+  .horoscope .forecast .day p {
+    padding: 13px 0 0;
+    line-height: 30px
+  }
+
+  .horoscope .forecast .resume p {
+    margin-bottom: 5px;
+    max-height: 49px;
+    overflow: hidden
+  }
+
+  .horoscope .forecast .sign a.svg-icon {
+    margin-left: -2px
+  }
+
+  .horoscope .forecast .sign p {
+    height: 123px;
+    margin-right: -8px;
+    padding-top: 15px
+  }
+
+  .horoscope .forecast .sign p a {
+    line-height: 60px
+  }
+
+  .horoscope-menu .signs {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 102px
+  }
+
+  .horoscope-menu .signs li:hover {
+    margin: 0
+  }
+
+  .horoscope-menu .signs .title {
+    margin-right: -4px
+  }
+
+  .horoscope-menu .signs .title p {
+    margin-right: -15px;
+    padding-top: 30px
+  }
+
+  .horoscope .forecast .sign,.horoscope .signs .title {
+    width: 235px
+  }
+
+  .horoscope-menu.is-scrollable {
+    height: 103px
+  }
+
+  .horoscope-menu.is-scrollable .signs {
+    width: 960px
+  }
+
+  .horoscope-menu.is-scrollable .scroll-left svg,.horoscope-menu.is-scrollable .scroll-right svg {
+    height: 104px
+  }
+}
+
+.horoscope .section-title .row::before {
+  content: none
+}
+
+.horoscope .section-title .svg.hidden+.section-info {
+  margin-left: 0
+}
+
+.horoscope .section-title time {
+  top: 66px;
+  font-family: Dosis;
+  line-height: 1;
+  font-size: 14px
+}
+
+.horoscope .signs {
+  border: 0
+}
+
+.horoscope .signs .title {
+  padding: 0;
+  margin: 0;
+  overflow: inherit;
+  z-index: 1
+}
+
+.horoscope .signs .title p {
+  text-transform: uppercase;
+  padding: 0;
+  border: 0;
+  background: 0 0;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.1px;
+  z-index: 1
+}
+
+.horoscope .signs .title p strong {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1.8px
+}
+
+.horoscope .signs li {
+  margin-bottom: 15px;
+  text-align: center
+}
+
+.horoscope .signs li a {
+  font-family: Dosis;
+  font-weight: 500
+}
+
+.horoscope .signs li .svg-icon {
+  height: 35px;
+  width: 100%;
+  margin-bottom: -5px
+}
+
+.horoscope .signs li i {
+  display: block
+}
+
+.horoscope .forecast {
+  border: 0;
+  margin: 0;
+  background: 0 0
+}
+
+.horoscope .forecast .sign {
+  z-index: 1
+}
+
+.horoscope .forecast .sign p {
+  padding: 0;
+  z-index: 1;
+  background: 0 0;
+  border: 0
+}
+
+.horoscope .forecast .sign p a {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  top: -30px;
+  position: relative
+}
+
+.horoscope .forecast .sign p a span .svg-icon {
+  width: 36px;
+  height: 40px;
+  margin: 5px 10px 0 0
+}
+
+.horoscope .forecast .sign p span {
+  display: block;
+  width: 170px;
+  text-align: left
+}
+
+.horoscope .forecast .sign p span a {
+  text-transform: none;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.8px;
+  top: 0
+}
+
+.horoscope .forecast .resume a {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: .5px
+}
+
+.horoscope .forecast .resume a p {
+  color: #000;
+  display: inline;
+  font-family: Dosis;
+  font-size: 20px;
+  font-stretch: normal;
+  line-height: 1.3;
+  font-weight: 500;
+  letter-spacing: -.5px
+}
+
+.horoscope .forecast .resume a::after {
+  content: none
+}
+
+.horoscope .forecast .resume a.color {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  font-family: Dosis;
+  line-height: normal;
+  letter-spacing: normal;
+  width: 162px;
+  margin-top: 10px
+}
+
+.horoscope .forecast .resume a.color:hover>.svg {
+  opacity: .7
+}
+
+.horoscope .forecast .resume a.color .svg {
+  height: 20px;
+  width: 20px;
+  float: right
+}
+
+.horoscope li a {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal
+}
+
+.horoscope-menu .signs {
+  border-bottom: 2px solid #e6e6e6
+}
+
+.horoscope-menu.is-scrollable .signs {
+  height: 77px
+}
+
+.horoscope-menu.is-scrollable .signs li .svg-icon {
+  margin-top: 0
+}
+
+@media (max-width:767px) {
+  .content-title+.collection-item .horoscope {
+    margin-top: -39px
+  }
+
+  .horoscope-menu.is-scrollable {
+    margin-bottom: 40px
+  }
+
+  .horoscope-menu.is-scrollable .signs {
+    height: 70px
+  }
+
+  .horoscope .section-title time {
+    top: 60px
+  }
+
+  .horoscope .section-title .slot-a:not(.hidden) {
+    margin-top: 15px
+  }
+
+  .horoscope .forecast {
+    padding: 0
+  }
+
+  .horoscope .forecast .sign {
+    padding-left: 0
+  }
+
+  .horoscope .forecast .sign p span {
+    text-align: left
+  }
+
+  .horoscope .forecast .sign p span a {
+    text-transform: none
+  }
+
+  .horoscope .forecast .sign p a {
+    top: -16px;
+    text-align: left
+  }
+
+  .horoscope-menu .signs {
+    margin: 0
+  }
+}
+
+@media (min-width:768px) {
+  .content-title+.collection-item .horoscope {
+    margin-top: -63px
+  }
+
+  .horoscope-menu .signs {
+    border-bottom: 2px solid #e6e6e6
+  }
+
+  .horoscope-menu.is-scrollable {
+    height: 88px;
+    margin-bottom: 40px
+  }
+
+  .horoscope-menu.is-scrollable a {
+    font-size: 18px
+  }
+
+  .horoscope-menu.is-scrollable .scroll-left,.horoscope-menu.is-scrollable .scroll-left svg,.horoscope-menu.is-scrollable .scroll-right,.horoscope-menu.is-scrollable .scroll-right svg {
+    height: 88px
+  }
+
+  .horoscope-menu.is-scrollable .scroll-left svg,.horoscope-menu.is-scrollable .scroll-right svg {
+    width: 54px
+  }
+
+  .horoscope:not(.horoscope-menu) .signs {
+    margin-top: 25px
+  }
+
+  .horoscope .signs .items .clearfix {
+    padding: 0
+  }
+
+  .horoscope .signs .title {
+    width: 200px
+  }
+
+  .horoscope .signs .title p {
+    margin-left: 33px;
+    height: 80px;
+    width: 150px;
+    margin-top: 72px
+  }
+
+  .horoscope .signs .title p strong {
+    margin-left: -22px
+  }
+
+  .horoscope .forecast .resume a:not(:first-child)::after {
+    font-size: .6em;
+    left: 10px;
+    margin: 0 0 -1px 4px
+  }
+
+  .horoscope .forecast .resume a p {
+    font-size: 24px
+  }
+}
+
+@media (min-width:992px) {
+  .horoscope-menu.is-scrollable {
+    height: 85px;
+    margin-bottom: 30px
+  }
+
+  .horoscope-menu.is-scrollable .scroll-left,.horoscope-menu.is-scrollable .scroll-left svg,.horoscope-menu.is-scrollable .scroll-right,.horoscope-menu.is-scrollable .scroll-right svg {
+    height: 85px
+  }
+}
+
+@media (min-width:1230px) {
+  .horoscope .signs .title {
+    width: 215px
+  }
+
+  .horoscope .signs .title p {
+    font-size: 22px;
+    letter-spacing: 1px;
+    letter-spacing: 1.1px
+  }
+
+  .horoscope .signs .title p strong {
+    font-size: 40px;
+    letter-spacing: 2px
+  }
+
+  .horoscope .forecast .sign {
+    width: 215px
+  }
+
+  .horoscope .forecast .sign p span a {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: .9;
+    letter-spacing: 2px
+  }
+
+  .horoscope .forecast .sign p a {
+    top: -22px
+  }
+
+  .horoscope .forecast .sign p a span .svg-icon {
+    margin: 0 10px 0 0
+  }
+}

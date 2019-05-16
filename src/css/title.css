@@ -1,0 +1,521 @@
+/* !color-cp:section-title */.section-title {
+  position: relative
+}
+
+.section-title .thin-normal {
+  margin-bottom: 25px
+}
+
+.section-title .svg {
+  float: left;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px
+}
+
+.section-title .svg svg {
+  width: 100%;
+  height: 100%
+}
+
+.section-title .svg+.section-info time {
+  left: 60px
+}
+
+.section-title .center {
+  text-align: center
+}
+
+.section-title .counter {
+  float: right
+}
+
+.section-title .counter,.section-title h4 {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  line-height: 1.2;
+  text-transform: uppercase
+}
+
+.section-title .counter svg,.section-title h4 svg {
+  width: 28px;
+  height: 28px
+}
+
+.section-title h4,.section-title h4 a:not(:hover) {
+  color: #000
+}
+
+.section-title time {
+  color: grey;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .6px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-align: left;
+  word-spacing: normal;
+  position: absolute;
+  top: 30px
+}
+
+.section-title time svg {
+  height: 16px;
+  fill: grey;
+  margin-right: 6px;
+  width: 16px
+}
+
+.section-title .section-title-ads {
+  margin-bottom: 25px
+}
+
+.section-title .section-info {
+  margin-bottom: 30px
+}
+
+.section-title .section-info span,.section-title .section-info svg {
+  vertical-align: middle
+}
+
+.section-title .section-title-ads {
+  background-color: #f2f2f2;
+  border-top: 1px solid #ccc;
+  min-height: 71px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center
+}
+
+.section-title .section-title-ads:before {
+  color: #000;
+  content: attr(data-ads-text);
+  display: block;
+  font-size: 9px;
+  font-weight: 300;
+  letter-spacing: 1.4px;
+  line-height: 1;
+  margin-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+@media (max-width:767px) {
+  .section-title h4 a {
+    color: #000
+  }
+}
+
+@media (min-width:768px) {
+  .section-title h4 {
+    font-size: 20px
+  }
+
+  .section-title .thin-normal {
+    margin-bottom: 50px
+  }
+
+  .section-title .section-info {
+    margin-bottom: 40px
+  }
+
+  .section-title .section-title-ads {
+    margin-bottom: 30px
+  }
+}
+
+@media (min-width:992px) {
+  .section-title .svg {
+    height: 50px;
+    width: 50px
+  }
+
+  .section-title .svg+.section-info time {
+    left: 70px
+  }
+
+  .section-title h4 {
+    font-size: 30px;
+    letter-spacing: 3px
+  }
+
+  .section-title h4 svg {
+    width: 35px;
+    height: 35px
+  }
+
+  .section-title time {
+    top: 40px
+  }
+}
+
+@media (min-width:1230px) {
+  .section-title .svg+.section-info time {
+    left: 75px
+  }
+}/* !end-color-cp:section-title *//* !color-cp:title */.title.title-container {
+  margin-bottom: 30px
+}
+
+.title .title-name {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.16;
+  letter-spacing: 3px;
+  margin-bottom: 2px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+.title .title-name,.title .title-name a {
+  color: #000
+}
+
+.title .title-kicker {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.43;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+.title .title-svg svg {
+  width: 50px;
+  height: 50px
+}
+
+.title .title-image,.title .title-svg {
+  text-align: center;
+  margin-bottom: 4px
+}
+
+.title .title-desc {
+  color: #666;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 1.25;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center
+}
+
+.title .title-content {
+  padding: 25px 0;
+  position: relative
+}
+
+.title .title-content .container {
+  z-index: 2
+}
+
+.title .title-content .container :last-child {
+  margin-bottom: 0
+}
+
+.title .title-ads {
+  background-color: #f2f2f2;
+  min-height: 71px;
+  padding-top: 7px;
+  padding-bottom: 15px;
+  text-align: center
+}
+
+.title .title-ads:before {
+  color: #000;
+  content: attr(data-ads-text);
+  display: block;
+  font-size: 9px;
+  font-weight: 300;
+  letter-spacing: 1.4px;
+  line-height: 1;
+  margin-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+.title [data-src] {
+  background-position: center
+}
+
+.title .inverted {
+  margin-bottom: 20px
+}
+
+.title .inverted:after {
+  background-color: rgba(26,26,26,.7);
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0
+}
+
+.title .inverted svg.svg-icon {
+  fill: #fff
+}
+
+.title .inverted .share.share-link .link span,.title .inverted .title-desc,.title .inverted .title-kicker,.title .inverted .title-kicker a,.title .inverted .title-name,.title .inverted .title-name a {
+  color: #fff
+}
+
+.title .container {
+  position: relative;
+  z-index: 1
+}
+
+.title .share {
+  position: absolute;
+  right: 10px
+}
+
+.title .title-content.inverted+.container+.ticket {
+  margin-top: 20px
+}
+
+.title .ticket {
+  margin: 40px 0 40px;
+  text-align: center
+}
+
+.title .ticket .ticket-button {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: .6px;
+  padding: 0 20px;
+  color: #1a1a1a
+}
+
+.title .ticket .ticket-button .ticket-icon {
+  max-width: 24px;
+  margin-right: 10px
+}
+
+@media (max-width:767px) {
+  .title .share+.title-name {
+    padding: 0 30px
+  }
+}
+
+@media (max-width:767px) {
+  .title .title-image img {
+    max-width: 280px;
+    max-height: 60px
+  }
+}
+
+@media (min-width:768px) {
+  .title.title-container {
+    margin-bottom: 40px
+  }
+
+  .title .title-name {
+    font-size: 36px;
+    letter-spacing: 5.5px;
+    margin-bottom: 4px
+  }
+
+  .title .title-kicker {
+    font-size: 16px;
+    line-height: 1.38;
+    letter-spacing: 3px;
+    margin-bottom: 12px
+  }
+
+  .title .title-desc {
+    font-size: 18px;
+    max-width: 600px
+  }
+
+  .title .title-svg {
+    margin-bottom: 7px
+  }
+
+  .title .title-svg svg {
+    width: 68px;
+    height: 68px
+  }
+
+  .title [data-src] {
+    margin-bottom: 30px
+  }
+
+  .title .share {
+    margin-top: 4px
+  }
+
+  .title .title-content.inverted+.container+.ticket {
+    margin-top: 10px
+  }
+}
+
+@media (min-width:992px) {
+  .title .title-content a:hover {
+    opacity: .7
+  }
+
+  .title .title-name {
+    font-size: 38px;
+    letter-spacing: 6px
+  }
+}
+
+@media (min-width:1230px) {
+  .title.title-container {
+    margin-bottom: 50px
+  }
+
+  .title .title-name {
+    font-size: 40px;
+    letter-spacing: 7px
+  }
+}/* !end-color-cp:title *//* !color-cp:title-sponsor */.title-sponsor {
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 15px #999;
+  z-index: 9999;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: height .2s ease-in;
+  -o-transition: height .2s ease-in;
+  -moz-transition: height .2s ease-in;
+  -ms-transition: height .2s ease-in;
+  transition: height .2s ease-in;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 200
+}
+
+.title-sponsor h4 {
+  text-align: left;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0;
+  font-family: UOLtext;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  display: inline-table;
+  height: 50px;
+  max-width: 34%
+}
+
+.title-sponsor h4 span {
+  display: table-cell;
+  vertical-align: middle
+}
+
+.title-sponsor.fixed {
+  height: 50px;
+  background: #fff
+}
+
+.title-sponsor.dark {
+  background: #1a1a1a
+}
+
+.title-sponsor.dark h4 {
+  color: #fff
+}
+
+.title-sponsor.dark h4 a {
+  color: #fff
+}
+
+.title-sponsor .patrocinador {
+  float: right;
+  text-align: left;
+  margin-top: 6px
+}
+
+.title-sponsor .patrocinador.dark {
+  color: #fff
+}
+
+.title-sponsor .patrocinador .ads-image,.title-sponsor .patrocinador .ads-wrapper {
+  position: relative
+}
+
+.title-sponsor .patrocinador .ads-image div[id*=banner-120x35-]>*,.title-sponsor .patrocinador .ads-wrapper div[id*=banner-120x35-]>* {
+  float: left
+}
+
+.title-sponsor .patrocinador .ads-image div[id*=banner-120x35-]>div:after,.title-sponsor .patrocinador .ads-wrapper div[id*=banner-120x35-]>div:after {
+  content: '';
+  border: 1px solid #e6e6e6;
+  width: 118px;
+  height: 33px;
+  display: block;
+  position: absolute;
+  top: 0
+}
+
+.title-sponsor .patrocinador .ads-image:before,.title-sponsor .patrocinador .ads-wrapper div[id*=banner-120x35-]:before {
+  content: 'PATROCÍNIO';
+  color: #666;
+  font-size: 9px;
+  font-family: UOLtext;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  position: absolute;
+  top: 12px;
+  left: -72px
+}
+
+.title-sponsor .patrocinador .ads-image img,.title-sponsor .patrocinador .ads-wrapper div[id*=banner-120x35-] img {
+  display: inline-block;
+  border: 1px solid #e6e6e6
+}
+
+.title-sponsor .patrocinador.hidden-label .ads-image:before,.title-sponsor .patrocinador.hidden-label .ads-wrapper div[id*=banner-120x35-]:before {
+  content: ''
+}
+
+@media (max-width:767px) {
+  .title-sponsor .title-header {
+    width: 50%;
+    line-height: 20px
+  }
+
+  .title-sponsor h4 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000
+  }
+
+  .title-sponsor .patrocinador {
+    margin-right: 5px
+  }
+}
+
+@media (min-width:768px) {
+  .title-sponsor h4 {
+    font-size: 14px;
+    line-height: 18px
+  }
+
+  .title-sponsor .patrocinador {
+    margin-right: calc(50% - 86px)
+  }
+}
+
+@media (min-width:992px) {
+  .title-sponsor h4 {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 2.5px
+  }
+}/* !end-color-cp:title-sponsor */

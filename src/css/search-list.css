@@ -1,0 +1,186 @@
+.navigation-search-list .customized-title {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  font-weight: 300
+}
+
+.navigation-search-list .search-box .icon-search {
+  padding: 16px 0
+}
+
+.navigation-search-list .search-box header {
+  float: none
+}
+
+.navigation-search-list.simple .search-box header {
+  width: 96%;
+  border: none;
+  padding-bottom: 0
+}
+
+.navigation-search-list.simple .search-box section p {
+  display: none
+}
+
+.navigation-search-list .search-box header .input-box {
+  position: relative
+}
+
+.navigation-search-list .search-box header .input-box input {
+  margin-bottom: 0
+}
+
+.navigation-search-list .search-box header .input-box ::-ms-clear {
+  width: 0;
+  height: 0
+}
+
+.navigation-search-list .suggest-list {
+  z-index: 20;
+  border: 1px solid grey;
+  border-top: none;
+  background-color: #fff;
+  position: absolute;
+  top: 99%;
+  right: 0;
+  left: 0;
+  border-radius: 0 0 4px 4px;
+  max-height: 228px;
+  padding: 0;
+  margin: 0;
+  font-size: 14px
+}
+
+.navigation-search-list .suggest-list {
+  display: none
+}
+
+.navigation-search-list .suggest-list {
+  overflow-x: hidden
+}
+
+.navigation-search-list .suggest-list li:first-child a {
+  padding-top: 14px
+}
+
+.navigation-search-list .suggest-list li:last-child a {
+  padding-bottom: 14px
+}
+
+.navigation-search-list .suggest-list li a {
+  display: block;
+  z-index: 21;
+  background: #fff;
+  color: #999;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase
+}
+
+.navigation-search-list .input-box.visible .suggest-list {
+  display: block
+}
+
+.navigation-search-list .input-box div:not([class*=i-amphtml]) {
+  position: relative
+}
+
+.navigation-search-list.search-category .search-box header .input-box input {
+  padding: 0 15px;
+  font-size: 16px
+}
+
+.navigation-search-list.search-category .search-box header .input-box.visible input {
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #e6e6e6
+}
+
+.navigation-search-list.search-category input.field::-webkit-input-placeholder,.navigation-search-list.search-category textarea.field ::-webkit-input-placeholder {
+  color: #333
+}
+
+.navigation-search-list.search-category input.field:-moz-placeholder,.navigation-search-list.search-category textarea.field:-moz-placeholder {
+  color: #333
+}
+
+.navigation-search-list.search-category input.field::-moz-placeholder,.navigation-search-list.search-category textarea.field::-moz-placeholder {
+  color: #333
+}
+
+.navigation-search-list.search-category input.field:-ms-input-placeholder,.navigation-search-list.search-category textarea.field:-ms-input-placeholder {
+  color: #333
+}
+
+@media (min-width:992px) and (max-width:1229px) {
+  .navigation-search-list .customized-title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    font-weight: 100
+  }
+
+  .navigation-search-list.search-category .search-box header .input-box input {
+    font-size: 14px
+  }
+}
+
+@media (min-width:1230px) {
+  .navigation-search-list .customized-title {
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    font-weight: 100
+  }
+}
+
+@media (min-width:768px) {
+  .navigation-search-list .customized-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 100
+  }
+
+  .navigation-search-list .search-box section ul.column li {
+    width: 50%
+  }
+
+  .navigation-search-list.search-category .search-box header .input-box {
+    padding-left: 0
+  }
+
+  .navigation-search-list.search-category .drop-select,.navigation-search-list.search-category .search-box header .category-box {
+    padding-right: 0
+  }
+}
+
+@media (min-width:992px) {
+  .navigation-search-list .suggest-list li a:hover {
+    color: #fff
+  }
+
+  .navigation-search-list .search-box .icon-search:hover,.navigation-search-list .search-box .selector:hover .icon-single-arrow-down {
+    opacity: .7;
+    cursor: pointer
+  }
+
+  .navigation-search-list .search-box section li a:hover {
+    cursor: pointer
+  }
+}
+
+@media (max-width:767px) {
+  .navigation-search-list.simple .search-box header {
+    width: 90%
+  }
+
+  .navigation-search-list.simple .search-box header .input-box input {
+    font-size: 14px
+  }
+
+  .navigation-search-list.search-category .input-box {
+    margin-bottom: 14px
+  }
+}
