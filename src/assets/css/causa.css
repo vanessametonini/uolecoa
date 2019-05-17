@@ -394,7 +394,7 @@ html .causa hr.thin-normal {
   font-family: 'Archivo Black', sans-serif;
   margin: 0 auto;
   max-width: 600px;
-  padding: 10px 5px;
+  padding: 10px;
   text-align: center;
   width: 90%;
 }
@@ -447,10 +447,15 @@ html .causa hr.thin-normal {
   text-decoration: underline;
 }
 
+.causa .highlights-with-photo {
+  margin-bottom: 40px;
+}
+
 .causa .temas {
   background: url("../../img/header-bg.svg");
   background-size: auto 100%;
   padding: 30px 0;
+  margin-bottom: 40px;
 }
 
 .causa .temas .lista-temas {
@@ -477,7 +482,72 @@ html .causa hr.thin-normal {
   background-color: transparent;
   color: #fff;
   font-family: 'Archivo Black', sans-serif;
-  font-size: 2.8em;
+  font-size: 1.3em;
+}
+
+.causa .blogs-and-columns {
+  margin-bottom: 40px;
+}
+
+.causa .blogs-and-columns .section-title .section-info h4 a,
+.causa .blogs-and-columns .section-title .section-info h4 span {
+  background-color: transparent;
+  color: #0d3c65;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.causa .blogs-and-columns figure {
+  display: flex;
+  font-family: 'Archivo Black', sans-serif;
+  height: auto;
+  float: none;
+  margin: 0;
+  width: auto;
+}
+
+.causa .blogs-and-columns ul {
+  margin: 0;
+}
+
+.causa .blogs-and-columns li a {
+  display: block;
+}
+
+.causa .blogs-and-columns figure img {
+  padding-right: 10px;
+  max-width: 50%;
+}
+
+.causa .blogs-and-columns figure figcaption {
+  align-self: center;
+  font-family: 'Space Mono', monospace;
+  font-size: .8em;
+  text-align: center;
+}
+
+.causa .blogs-and-columns figure figcaption h4 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.4em;
+}
+
+.causa .blogs-and-columns .monique figcaption,
+.causa .blogs-and-columns .monique figcaption h4 {
+  color: #ff4355;
+}
+
+.causa .blogs-and-columns .juliana figcaption,
+.causa .blogs-and-columns .juliana figcaption h4 {
+  color: #3892ff;
+}
+
+.causa .blogs-and-columns .tony figcaption,
+.causa .blogs-and-columns .tony figcaption h4 {
+  color: #45d4d1;
+}
+
+.causa .blogs-and-columns .vanessa figcaption,
+.causa .blogs-and-columns .vanessa figcaption h4 {
+  color: #ff8f51;
 }
 
 @media (max-width: 470px) {
@@ -523,7 +593,7 @@ html .causa hr.thin-normal {
 
   .causa article,
   .causa section {
-    margin-bottom: 40px;
+    margin-bottom: 0;
   }
 
   .causa .header-box {
