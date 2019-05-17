@@ -8,6 +8,7 @@
   },
   "author": "Vanessa Me Tonini",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
@@ -19,5 +20,9 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vanessametonini/uolecoa.git"
   }
 }
