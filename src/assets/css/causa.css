@@ -424,6 +424,29 @@ html .causa hr.thin-normal {
   text-decoration: underline;
 }
 
+.causa .highlights-with-photo .thumbnail-standard .thumb-caption .thumb-kicker {
+  background-color: #4c335a;
+  border-radius: 0;
+  color: #ff8f51;
+  display: block;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2em;
+  line-height: 1.2em;
+  padding: 10px 10px 10px 20px;
+}
+
+.causa .highlights-with-photo .thumbnail-standard .thumb-caption .thumb-title {
+  color: #4c335a;
+  font-family: 'Space Mono', monospace;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.causa .thumbnail-standard a:hover .thumb-title {
+  color: inherit;
+  text-decoration: underline;
+}
+
 @media (max-width: 500px) {
   .causa .one-highlight-with-subtitles .text-container .highlight-title {
     font-size: 1.7em;
