@@ -247,6 +247,10 @@ html .causa hr.thin-on-verticals {
   width: 100%;
 }
 
+.causa .header.header-verticais .menu-wrapper-mobile .nav-menus ul:not(.subscribe):not(.teams) li a:hover {
+  color: #ff8f51;
+}
+
 .causa .header.header-verticais .brand .open-menu .close-button {
   background-color: #4c335a;
 }
@@ -373,7 +377,7 @@ html .causa hr.thin-on-verticals {
 }
 
 .causa .btn.btn-ghost {
-  color: #ff4355 !important;
+  color: #4c335a !important;
 }
 
 .causa .related-content .h-components {
@@ -391,14 +395,27 @@ html .causa hr.thin-on-verticals {
   line-height: 1.2em;
 }
 
+.causa .related-collection li {
+    color: #4c335a;
+    background-image: linear-gradient(180deg,transparent,#4c335a 0);
+    background-image: -webkit-linear-gradient(180deg,transparent,#4c335a 0);
+    background-image: -o-linear-gradient(180deg,transparent,#4c335a 0);
+    background-image: -moz-linear-gradient(180deg,transparent,rgba(238,94,137,.1) 0);
+    background-image: linear-gradient(180deg,transparent,#4c335a 0);
+}
+
 .causa .related-collection li a {
-  color: #ff4355;
+  color: #4c335a;
   font-family: 'Space Mono', monospace;
   font-size: 1em;
 }
 
 .causa .news-notice svg {
   fill: #0d3c65;
+}
+
+.causa .share-footer .share-item .svg-icon-social {
+  fill: #4c335a;
 }
 
 @media (max-width: 470px) {
@@ -424,7 +441,7 @@ html .causa hr.thin-on-verticals {
 @media (min-width: 768px) {
 
   .causa .header.header-verticais:not(.is-fixed) .brand {
-    background: yellow;
+    /* background: yellow; */
   }
 
   .causa .header.header-verticais:not(.is-fixed) .top-box {
