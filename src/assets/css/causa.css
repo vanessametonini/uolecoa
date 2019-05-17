@@ -330,6 +330,10 @@ html .causa hr.thin-normal {
   background: transparent url("../../img/separador.svg") repeat-x;
 }
 
+.causa .top-box {
+  display: none;
+}
+
 .causa .header-box + hr.normal {
   margin-bottom: 0;
 }
@@ -514,7 +518,6 @@ html .causa hr.thin-normal {
 }
 
 .causa .blogs-and-columns figure img {
-  padding-right: 10px;
   max-width: 50%;
 }
 
@@ -548,6 +551,50 @@ html .causa hr.thin-normal {
 .causa .blogs-and-columns .vanessa figcaption,
 .causa .blogs-and-columns .vanessa figcaption h4 {
   color: #ff8f51;
+}
+
+.causa .header .menu-wrapper-mobile .nav-menus ul {
+  padding: 0;
+}
+
+.causa .header.header-verticais .menu-wrapper-mobile .nav-menus .channels-list.principal-item {
+  border: none;
+  background-color: #4c335a;
+  height: calc(100vh - 122px);
+  width: 100%;
+}
+
+.causa .header .menu-wrapper-mobile .nav-menus li {
+  padding: 0;
+  width: 100%;
+}
+
+.causa .nav-tabs-subitems {
+  display: none;
+}
+
+.causa .header .menu-wrapper-mobile .nav-menus ul {
+  background: url("../../img/header-bg.svg");
+  background-size: auto 100%;
+  background-position: 80%;
+  width: 100%;
+}
+
+.causa .header .menu-wrapper-mobile .nav-menus li a {
+  background-color: #4c335a;
+  color: #fff;
+  display: block;
+  font-family: 'Space Mono', monospace;
+  margin: 1px 0;
+  padding: 10px 10px 10px 45px;
+}
+
+.causa .header .menu-wrapper-mobile .nav-menus li:first-child a {
+  margin-top: 2px;
+}
+
+.causa .header .menu-wrapper-mobile .nav-menus li:last-child a {
+  margin-bottom: 2px;
 }
 
 @media (max-width: 470px) {
@@ -599,6 +646,10 @@ html .causa hr.thin-normal {
   .causa .header-box {
     height: 122px;
     margin-bottom: 0;
+  }
+
+  .causa .header.header-verticais:not(.is-fixed) .menu-wrapper-mobile.show-submenu {
+    top: 122px;
   }
 
   .causa .header.header-verticais:not(.is-fixed) .brand {
