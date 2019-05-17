@@ -1,0 +1,1 @@
+Estes arquivos devem ser sevidos por um web server para funcionar. Eu usei o http-server.
