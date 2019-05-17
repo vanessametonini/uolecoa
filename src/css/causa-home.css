@@ -1,3 +1,15 @@
+html .causa hr.normal,
+html .causa hr.thin,
+html .causa hr.thin-normal {
+  border: 0;
+  height: 7px;
+  background: transparent url(../../img/separador.svg) repeat-x;
+}
+
+.causa .header-box + hr.normal {
+  margin-bottom: 0;
+}
+
 .header-box {
   background: url(../../img/header-bg.svg);
   background-size: 200%;
@@ -37,11 +49,64 @@
   background-color: #c13553;
   width: 100%;
   color: #fff;
-  font-family: 'Space Mono';
+  font-family: 'Space Mono', monospace;
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 8px 0;
+}
+
+.causa .one-highlight-with-subtitles .img-wraper {
+  background-color: #4c335a;
+}
+
+.causa .one-highlight-with-subtitles .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.causa .one-highlight-with-subtitles .text-container .highlight-title {
+  background-color: #4c335a;
+  color: #ff8f51;
+  font-family: 'Archivo Black', sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 10px 5px;
+  text-align: center;
+  width: 90%;
+}
+
+.causa .one-highlight-with-subtitles a:hover .text-container .highlight-title {
+    color: #45d4d1;
+}
+.causa .one-highlight-with-subtitles .text-container .highlight-title p {
+  border-radius: 0;
+  box-shadow: none;
+  background: none;
+}
+
+
+.causa .one-highlight-with-subtitles .text-container .highlight-subtitle p {
+  color:#4c335a;
+  font-family: 'Space Mono', monospace;
+  font-size: .8em;
+  line-height: 1.2em;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  width: 90%;
+}
+
+.causa .one-highlight-with-subtitles a:hover .text-container .highlight-subtitle p {
+ text-decoration: underline;
+  
+}
+
+@media (max-width: 500px){
+  .causa .one-highlight-with-subtitles .text-container .highlight-title {
+    font-size: 1.7em;
+    line-height: 1.4em;
+  }
 }
 
 @media (min-width: 768px) {
@@ -59,8 +124,16 @@
 }
 
 @media (max-width: 767px){
+
+  html .causa hr.normal,
+  html .causa hr.thin,
+  html .causa hr.thin-normal {
+    background-position: 0 0;
+  }
+
   .causa .header-box {
     height: 122px;
+    margin-bottom: 0;
   }
 
   .causa .header.header-verticais:not(.is-fixed) .brand {
@@ -107,3 +180,6 @@
     margin: 0;
   }
 }
+
+
+
