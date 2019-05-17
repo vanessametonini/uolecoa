@@ -486,7 +486,7 @@ html .causa hr.thin-normal {
   background-color: transparent;
   color: #fff;
   font-family: 'Archivo Black', sans-serif;
-  font-size: 1.3em;
+  font-size: 2em;
 }
 
 .causa .blogs-and-columns {
@@ -562,6 +562,14 @@ html .causa hr.thin-normal {
   background-color: #4c335a;
   height: calc(100vh - 122px);
   width: 100%;
+}
+
+.causa .header.header-verticais .brand .open-menu .close-button {
+  background-color: #4c335a;
+}
+
+.causa .header .brand .open-menu .close-button svg {
+  fill: #ff8f51;
 }
 
 .causa .header .menu-wrapper-mobile .nav-menus li {
