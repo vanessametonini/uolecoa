@@ -301,6 +301,36 @@ html .causa hr.thin-on-verticals {
   margin-bottom: 2px;
 }
 
+.causa .ads-wrapper.bg-banner {
+  background-color: #0d3c65;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.causa .ads-wrapper.bg-banner h6 {
+  color: #ff8f51;
+  text-align: left;
+  font-family: 'Space Mono', monospace;
+  font-size: .8em;
+  padding: 1em 0;
+}
+
+.causa .ads-wrapper.bg-banner .patro {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.causa .ads-wrapper.bg-banner .patro a {
+  display: block;
+  text-align: center;
+}
+
+.causa .ads-wrapper.bg-banner .patro img {
+  width: 80px;
+}
+
 /* PAGINA NOTICIA */
 .causa .title.title-container {
   margin-bottom: 0;
@@ -434,6 +464,31 @@ html .causa hr.thin-on-verticals {
 .causa .article .text p a:not(.a-unstyled) {
   color: #4c335a;
   background-image: linear-gradient(180deg,transparent, #4c335a 0)
+}
+
+.causa .box-info-ultra {
+  background-color: #4c335a;
+  box-shadow: 20px 20px 0 #c13553;
+  color: #fff;
+  font-family: 'Space Mono', monospace;
+  padding: 20px;
+  margin: 0 auto 40px;
+  width: 95%;
+}
+
+.causa .box-info-ultra strong {
+  color: #ff8f51;
+  font-weight: bold;
+}
+
+.causa .article .text cite {
+  background: url(../../img/icon_aspas.png) no-repeat;  
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.causa .article .text cite:before{
+  background: none;
 }
 
 @media (max-width: 470px) {
