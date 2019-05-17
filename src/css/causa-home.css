@@ -1,0 +1,109 @@
+.header-box {
+  background: url(../../img/header-bg.svg);
+  background-size: 200%;
+}
+
+.causa .header.header-verticais .invert{
+  background: none;
+}
+
+.causa .header.header-verticais .brand .main-links{
+  position: static;
+}
+
+.causa .header.header-verticais .brand .main-links .station-link a,
+.causa .header.header-verticais .brand .main-links .box-logo .icon-uol {
+  background: none;
+}
+
+.causa .header.header-verticais .brand .main-links .box-logo .icon-uol {
+  width: 0;
+  height: 0;
+  margin-top: 0;
+}
+
+.causa .header.header-verticais .brand .main-links .station-link a {
+  background: url(../../img/logo.svg) no-repeat;
+  background-position: 0 0;
+  margin: 19px 0 0 0;
+
+}
+
+.causa .header.header-verticais:not(.is-fixed) .brand .open-menu {
+  background-color: #ff8f51;
+
+}
+.causa .header .headline {
+  background-color: #c13553;
+  width: 100%;
+  color: #fff;
+  font-family: 'Space Mono';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 8px 0;
+}
+
+@media (min-width: 768px) {
+
+  .causa .header.header-verticais:not(.is-fixed) .brand {
+    background: yellow;
+  }
+
+  .causa .header.header-verticais:not(.is-fixed) .top-box {
+    position: static
+  }
+  .causa .header.header-verticais:not(.is-fixed) .top-box  ul {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px){
+  .causa .header-box {
+    height: 122px;
+  }
+
+  .causa .header.header-verticais:not(.is-fixed) .brand {
+    height: 122px;
+    text-align: center;
+  }
+
+  .causa .header.header-verticais:not(.is-fixed) .brand .open-menu {
+    margin: 19px 14px 0 10px;
+  }
+
+  .causa .header.header-verticais .brand .main-links .station-link a {
+    width: 200px;
+    height: 50px;
+  }
+
+  .causa .header.header-verticais:not(.is-fixed) .invert {
+    border-bottom-width: 1px;
+  }
+}
+
+@media (min-width:992px) {
+
+  .causa .header .brand .main-links {
+    display: block;
+  }
+
+  .causa .header.header-verticais:not(.is-fixed) .brand .main-links .station-link a {
+    height: 78px;
+    width: 328px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  
+  .causa .header.header-verticais:not(.is-fixed) .brand .main-links .box-logo .icon-uol {
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1230px){
+  .causa .header.header-verticais:not(.is-fixed) .open-menu {
+    margin: 0;
+  }
+}
