@@ -67,6 +67,15 @@ html .causa hr.thin-on-verticals {
 
 .causa .one-highlight-with-subtitles .img-wraper {
   background-color: #4c335a;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.causa .one-highlight-with-subtitles .img-wraper img {
+  height: 300px;
+  max-width: inherit;
+  width: auto;
 }
 
 .causa .one-highlight-with-subtitles .container {
@@ -365,10 +374,14 @@ html .causa hr.thin-on-verticals {
 }
 
 .causa .article .text cite {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.3em;
+  line-height: 1.2em;
   margin-bottom: 30px;
 }
 
 .causa .article .text h3 {
+  font-family: 'Archivo Black', sans-serif;
   padding-top: 0;
 }
 
@@ -418,6 +431,11 @@ html .causa hr.thin-on-verticals {
   fill: #4c335a;
 }
 
+.causa .article .text p a:not(.a-unstyled) {
+  color: #4c335a;
+  background-image: linear-gradient(180deg,transparent, #4c335a 0)
+}
+
 @media (max-width: 470px) {
   .causa .temas li {
     margin-left: 5px;
@@ -425,30 +443,10 @@ html .causa hr.thin-on-verticals {
   }
 }
 
-@media (min-width: 470px) {
-  .causa .temas .lista-temas {
-    justify-content: space-between;
-  }
-}
-
 @media (max-width: 500px){
   .causa .one-highlight-with-subtitles .text-container .highlight-title {
     font-size: 1.7em;
     line-height: 1.4em;
-  }
-}
-
-@media (min-width: 768px) {
-
-  .causa .header.header-verticais:not(.is-fixed) .brand {
-    /* background: yellow; */
-  }
-
-  .causa .header.header-verticais:not(.is-fixed) .top-box {
-    position: static
-  }
-  .causa .header.header-verticais:not(.is-fixed) .top-box  ul {
-    display: flex;
   }
 }
 
@@ -492,6 +490,28 @@ html .causa hr.thin-on-verticals {
   }
 
 }
+
+@media (min-width: 470px) {
+  .causa .temas .lista-temas {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .causa .header.header-verticais:not(.is-fixed) .brand {
+    /* background: yellow; */
+  }
+
+  .causa .header.header-verticais:not(.is-fixed) .top-box {
+    position: static
+  }
+  .causa .header.header-verticais:not(.is-fixed) .top-box  ul {
+    display: flex;
+  }
+}
+
+
 
 @media (min-width:992px) {
 
